@@ -1,0 +1,54 @@
+.footer_main_div {
+  padding: 10px 10px 0px 10px;
+}
+
+.footer_head_div {
+  width: 100%;
+  height: 50px;
+  background-color: #0b80a1;
+}
+
+.footer_body_div {
+  background-color: black;
+}
+
+.footer_header_icons {
+  color: white;
+  font-size: 30px;
+  /* padding: 15px; */
+  margin-right: 15px;
+}
+
+.footer_conpany_name,
+.go_to,
+.contactus_text {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  color: orange;
+  margin-left: 26px;
+}
+
+.footer_about_company {
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 14px;
+  /* font-family: "Oswald", sans-serif; */
+}
+
+.footer_body_icons {
+  color: white;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.goto_link,
+.contactus_link {
+  color: white;
+  margin-left: 14px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}

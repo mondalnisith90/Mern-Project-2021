@@ -1,0 +1,26 @@
+.service_div {
+  text-align: center;
+}
+
+.services_icon {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 50%;
+  /* padding: 10px; */
+  margin: auto;
+  color: white;
+}
+
+.service_head {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+.service_body {
+  /* font-family: "Oswald", sans-serif; */
+  font-size: 15px;
+  color: #000000;
+  text-align: justify;
+}

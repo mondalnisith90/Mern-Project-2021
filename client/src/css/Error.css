@@ -1,0 +1,39 @@
+.error_root_div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../Images/error3.jpeg");
+  background-size: 100% 100%;
+  font-size: 61.5%;
+  padding-bottom: 0px;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.error_main_div {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.error_heading {
+  font-size: 10rem;
+  /* color: #fcf403; */
+  color: #fc0367;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+.error_home_btn {
+  padding: 8px 20px 8px 20px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  background-image: linear-gradient(190deg, #bb12c4, #0ccfc8);
+  border-radius: 0.5cm;
+  border: 2px solid #ffffff;
+  margin-top: 20px;
+}
+
+.error_home_btn:hover {
+  background-image: linear-gradient(190deg, #0ccfc8, #0ccfc8);
+  transition: 1s;
+}

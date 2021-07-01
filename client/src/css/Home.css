@@ -1,0 +1,181 @@
+.root_div_home {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #f5f7f2;
+  padding-bottom: 0px;
+}
+
+.header_div {
+  width: 100%;
+  background-image: linear-gradient(100deg, #165287, #0b629c, #18032e, #18032e);
+  border-bottom-right-radius: 0cm;
+  border-bottom-left-radius: 0cm;
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+.home_heading {
+  color: #fff605;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  padding: 0px 15px 5px 15px;
+}
+
+.home_welcome_text {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.home_head_para {
+  color: #ffffff;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+}
+
+.home_about_button {
+  width: 160px;
+  /* background-color: #c70479; */
+  background-image: linear-gradient(100deg, #14f7f0, #810f85);
+  border-radius: 0.7cm;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  border: 2px solid white;
+  font-size: 26px;
+}
+
+.home_contact_button {
+  width: 160px;
+  background-image: linear-gradient(140deg, #810f85, #0cb8c4);
+  border-radius: 0.7cm;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  border: 2px solid white;
+  font-size: 26px;
+}
+
+.home_about_button:hover {
+  background-image: linear-gradient(140deg, #ffffff, #ffffff);
+  transition: 0.4s;
+  color: black;
+  /* border: 2px solid #c70479; */
+}
+
+.home_contact_button:hover {
+  background-image: linear-gradient(140deg, #ffffff, #ffffff);
+  transition: 0.4s;
+  color: black;
+  /* border: 2px solid #c70479; */
+}
+
+.home_img {
+  /* border-left: 5px solid #18032e;
+  border-right: 5px solid #18032e;
+  border-bottom: 5px solid #27074a; */
+  /* border-bottom-left-radius: 0.5cm; */
+  /* width: 100%;
+  height: 100%;
+  display: block; */
+  background-image: url(../Images/home1.jpg);
+  background-size: 100% 100%;
+  height: 470px;
+}
+
+.services_main_div {
+  /* background-color: green; */
+  margin-top: 20px;
+  padding: 20px 10px 20px 10px;
+}
+
+.services_heading,
+.websitefeatures_heading {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  color: #000000;
+}
+
+.services_para,
+.websitefeatures_para {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+
+.websitefeatures_main_div {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.developer_heading {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  color: #000000;
+}
+
+.developer_main_div {
+  padding: 10px 0px 0px 0px;
+  background-color: white;
+  border-radius: 0.5cm;
+  margin-bottom: 40px;
+}
+
+.developer_row_div {
+  background-image: linear-gradient(100deg, #0d8eb5, #19d4d4);
+  border-bottom-right-radius: 0.5cm;
+  border-top-right-radius: 1cm;
+  border-top-left-radius: 1cm;
+  border-bottom-left-radius: 0.5cm;
+}
+
+.developer_img_tag {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dev_name {
+  margin-top: 30px;
+  color: yellow;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 50px;
+}
+
+.dev_intro {
+  margin-top: 0px;
+  color: white;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 50px;
+  margin-bottom: 12px;
+}
+
+.dev_degree {
+  margin-top: 0px;
+  color: white;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.dev_navlink {
+  margin-left: 50px;
+}
