@@ -154,7 +154,7 @@ const SignIn = () => {
     return(
           
         <>
-         <section className=" root_div">
+         <section className="root_div">
                 <div className="row_div container shadow">
                   <div className="signin_div">
                     <h2 className="sign_heading">User Registration</h2>

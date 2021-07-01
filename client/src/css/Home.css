@@ -11,30 +11,34 @@
   border-bottom-right-radius: 0cm;
   border-bottom-left-radius: 0cm;
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
 
 .home_heading {
-  color: #fff605;
-  font-family: "Oswald", sans-serif;
+  /* color: #0fff03; */
+  /* color: #ffe608; */
+  color: #abf5dd;
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: "Akaya Kanadaka", cursive; */
+  font-family: "Abril Fatface", cursive;
   text-align: center;
   font-size: 60px;
   padding: 0px 15px 5px 15px;
 }
 
 .home_welcome_text {
-  color: white;
-  font-family: "Oswald", sans-serif;
-  font-size: 40px;
+  color: #f57fef;
+  font-family: "Courgette", cursive;
+  font-size: 45px;
   text-align: center;
 }
 
 .home_head_para {
   color: #ffffff;
   text-align: justify;
-  font-family: "Oswald", sans-serif;
+  font-family: "Courgette", cursive;
   font-size: 20px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 50px 0px 50px;
 }
 
 .home_about_button {
@@ -81,13 +85,6 @@
 }
 
 .home_img {
-  /* border-left: 5px solid #18032e;
-  border-right: 5px solid #18032e;
-  border-bottom: 5px solid #27074a; */
-  /* border-bottom-left-radius: 0.5cm; */
-  /* width: 100%;
-  height: 100%;
-  display: block; */
   background-image: url(../Images/home1.jpg);
   background-size: 100% 100%;
   height: 470px;
@@ -115,7 +112,7 @@
 }
 
 .websitefeatures_main_div {
-  margin-top: 40px;
+  margin-top: 25px;
   padding: 10px;
 }
 
@@ -131,6 +128,7 @@
   background-color: white;
   border-radius: 0.5cm;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .developer_row_div {
@@ -146,8 +144,8 @@
   height: 180px;
   border-radius: 50%;
   border: 3px solid white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .dev_name {
@@ -173,7 +171,7 @@
   font-size: 18px;
   font-family: "Oswald", sans-serif;
   margin-left: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .dev_navlink {

@@ -2,10 +2,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import weatherPic from "../Images/weather1.png"
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import axios from "axios";
+import Footer from './Footer';
 import "../css/Weather.css";
 import { useState, useEffect } from 'react';
 
-const Weather = () => {
+const Weather = ({userLoginStatus}) => {
 
   const [inputFieldsData, setInputFieldsData] = useState({cityName: "", latitude: "", longitude: ""});
   const [apiData, setApiData] = useState({
@@ -130,7 +131,7 @@ const Weather = () => {
           {/* //If weather data is available then show weather data else show error message */}
           { weatherDataVisibility.visibility ?
 
-          <div className="row">
+          <div className="row mb-5">
            <div className="col-lg-6 col-md-6 col-sm-12 col-12 d-block m-auto weather_data_main_div shadow">
              <div className="weather_header_design d-flex justify-content-around">
              <div>
@@ -169,11 +170,11 @@ const Weather = () => {
           :  <div className="p-3">
             <h3 className=" text-center text-danger">{weatherDataVisibility.errorMessage}</h3>
           </div> }
-
-
-
-
           </div>
+          
+          {/* page Footer */}
+
+          <Footer userLoginStatus={userLoginStatus} />
           </section>
         </>
     );

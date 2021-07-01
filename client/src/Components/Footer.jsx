@@ -12,10 +12,10 @@ import LoginIcon from '@material-ui/icons/ExitToApp';
 import AndroidIcon from '@material-ui/icons/Android';
 import "../css/Footer.css";
 
-const Footer = () => {
+const Footer = ({userLoginStatus}) => {
     return(
         <>
-          <div className="container-fluid ">
+          <div className="container">
             <div className="footer_main_div">
             <div className="footer_head_div d-flex justify-content-end align-items-center">
              <NavLink to="/contact"> <FacebookIcon  className="footer_header_icons"/> </NavLink>
@@ -36,8 +36,11 @@ const Footer = () => {
                <NavLink to="/" style={{textDecoration: "none"}}><p className="goto_link"><HomeIcon className="footer_body_icons"/>Home</p></NavLink>
                <NavLink style={{textDecoration: "none"}} to="/about"><p className="goto_link"><InfoIcon className="footer_body_icons"/>About Us</p></NavLink>
                <NavLink style={{textDecoration: "none"}} to="/contact"><p className="goto_link"><ContactSupportIcon className="footer_body_icons"/>Contact Us</p></NavLink>
+               {
+                userLoginStatus ? null : <>
                <NavLink style={{textDecoration: "none"}} to="/signin"><p className="goto_link"><PersonAddIcon className="footer_body_icons"/>Sing In</p></NavLink>
-               <NavLink style={{textDecoration: "none"}} to="/login"><p className="goto_link"><LoginIcon className="footer_body_icons"/>Login</p></NavLink>
+               <NavLink style={{textDecoration: "none"}} to="/login"><p className="goto_link"><LoginIcon className="footer_body_icons"/>Login</p></NavLink> </>
+               }
              </div>
              <div className="col-lg-3 col-md-3 col-sm-12 col-12 m-auto d-block my-3">
                <h2 className="contactus_text">Contact Us</h2>

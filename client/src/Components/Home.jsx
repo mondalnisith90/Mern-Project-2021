@@ -18,7 +18,7 @@ import "../css/Home.css";
 
 
 
-const Home = ({setUserLoginStatus}) => {
+const Home = ({userLoginStatus}) => {
 
   const [userdata, setUserData] = useState({firstName: "", lastName: "", email: ""});
 
@@ -28,7 +28,6 @@ const Home = ({setUserLoginStatus}) => {
       const serverResponse = await axios.get(url, {withCredentials: true});
       if(serverResponse.status == 200){
         //means user already loged in..
-        setUserLoginStatus(true);
         const {firstName, lastName, email} = serverResponse.data;
         setUserData({...userdata, firstName: firstName});
       }else{
@@ -37,7 +36,6 @@ const Home = ({setUserLoginStatus}) => {
     } catch (error) {
       //user data not get may be for internet error or available or unauthorize user
       //new user
-      setUserLoginStatus(false);
     }
   }
 
@@ -66,14 +64,22 @@ const Home = ({setUserLoginStatus}) => {
               All that is gold does not glitter,
               Not all those who wander are lost;
               The old that is strong does not wither,
-              Deep roots are not reached by the frost.</p>
+              Deep roots are not reached by the frost.
+              Not all those who wander are lost;
+              The old that is strong does not wither,
+              Deep roots are not reached by the frost.
+              All that is gold does not glitter,
+              Not all those who wander are lost;
+              The old that is strong does not wither,
+              Deep roots are not reached by the frost.
+              </p>
 
               <div className="row header_button_div">
               <div className="col-md-6  d-flex justify-content-md-end justify-content-sm-center justify-content-center my-3">
-              <button className="home_about_button">About Us</button>
+               <NavLink to="/about" > <button className="home_about_button">About Us</button> </NavLink>
               </div>
               <div className="col-md-6 d-flex justify-content-md-start  justify-content-sm-center justify-content-center my-3">
-              <button className="home_contact_button">Contact Us</button>
+              <NavLink to="/contact"> <button className="home_contact_button">Contact Us</button> </NavLink>
               </div>
              
               </div> 
@@ -96,9 +102,9 @@ const Home = ({setUserLoginStatus}) => {
             {ServicesData.map((values, index) => {
               return(
                 <>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 m-auto d-block my-2" key={index}>
-                <Services ServiceIcon={values.IconName} serviceHeading={values.heading} servicesBody = {values.body}/>
-             </div>
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12 m-auto d-block my-2"    key={values.id}>
+                <Services ServiceIcon={values.IconName} serviceHeading={values.heading} servicesBody = {values.body}   />
+                </div>
                 </>
               )
               
@@ -115,9 +121,9 @@ const Home = ({setUserLoginStatus}) => {
             {WebsiteFeaturesData.map((values, index) => {
               return(
                 <>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 m-auto d-block my-4" key={index}>
-                <SiteFeatures imageUrl={values.imageUrl} title={values.title} body={values.body} />
-             </div>
+                <div className="col-lg-4 col-md-4 col-sm-12 col-12 m-auto d-block my-4"    key={values.id}>
+                <SiteFeatures imageUrl={values.imageUrl} title={values.title} body={values.body} link={values.link} />
+               </div>
                 </>
               )
               
@@ -169,7 +175,7 @@ const Home = ({setUserLoginStatus}) => {
 
           {/* page Footer */}
 
-           <Footer/>
+           <Footer userLoginStatus={userLoginStatus} />
 
           </section>
            
