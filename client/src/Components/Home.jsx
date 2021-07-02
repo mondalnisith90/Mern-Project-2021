@@ -51,7 +51,7 @@ const Home = ({userLoginStatus}) => {
         <>
           <section className="root_div_home">
            {/* Home Header */}
-            <div className="header_div">
+            <div className="header_div">  
              <div className=" heading_container_div">
                <div className="row g-0 header_row_div">
                  <div className="col-lg-7 col-md-7 col-sm-12 col-12 m-auto d-block  order-md-1 order-sm-2 order-2 mt-4">
@@ -73,28 +73,26 @@ const Home = ({userLoginStatus}) => {
               The old that is strong does not wither,
               Deep roots are not reached by the frost.
               </p>
-
-              <div className="row header_button_div">
+            
+              <div className="row header_button_div w-100">
               <div className="col-md-6  d-flex justify-content-md-end justify-content-sm-center justify-content-center my-3">
                <NavLink to="/about" > <button className="home_about_button">About Us</button> </NavLink>
               </div>
               <div className="col-md-6 d-flex justify-content-md-start  justify-content-sm-center justify-content-center my-3">
               <NavLink to="/contact"> <button className="home_contact_button">Contact Us</button> </NavLink>
               </div>
-             
               </div> 
-
-                 </div>
+             </div>
 
                  <div className="col-lg-5 col-md-5 col-sm-12 col-12 m-auto d-block order-md-2 order-sm-1 order-1 home_img">
                  </div>
                </div>
-             </div>
+             </div>  
            </div>
 
 
           {/* our Services */}
-
+  
           <div className="container services_main_div">
             <h1 className="services_heading">Our Services</h1>
             <p className="services_para">All of our services are as follows to our customers</p>
@@ -102,7 +100,7 @@ const Home = ({userLoginStatus}) => {
             {ServicesData.map((values, index) => {
               return(
                 <>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 m-auto d-block my-2"    key={values.id}>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 m-auto d-block my-2"    key={values.id}>
                 <Services ServiceIcon={values.IconName} serviceHeading={values.heading} servicesBody = {values.body}   />
                 </div>
                 </>
@@ -110,7 +108,7 @@ const Home = ({userLoginStatus}) => {
               
             })}
             </div>
-          </div>
+          </div>  
 
           {/* This website Features */}
 
@@ -121,7 +119,7 @@ const Home = ({userLoginStatus}) => {
             {WebsiteFeaturesData.map((values, index) => {
               return(
                 <>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 m-auto d-block my-4"    key={values.id}>
+                <div className="col-lg-4 col-md-6 col-sm-12 col-12 m-auto d-block my-4"    key={values.id}>
                 <SiteFeatures imageUrl={values.imageUrl} title={values.title} body={values.body} link={values.link} />
                </div>
                 </>
@@ -129,7 +127,7 @@ const Home = ({userLoginStatus}) => {
               
             })}
             </div>
-          </div>
+          </div>  
 
           {/* developer details */}
 
@@ -171,11 +169,11 @@ const Home = ({userLoginStatus}) => {
                </div>
                </div>
 
-             </div>
+             </div>  
 
           {/* page Footer */}
 
-           <Footer userLoginStatus={userLoginStatus} />
+           <Footer userLoginStatus={userLoginStatus} />  
 
           </section>
            
