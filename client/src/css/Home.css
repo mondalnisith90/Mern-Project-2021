@@ -177,3 +177,223 @@
 .dev_navlink {
   margin-left: 50px;
 }
+
+@media (min-width: 1300px) and (max-width: 1440px) {
+  .home_heading {
+    font-size: 52px;
+    padding: 0px 12px 5px 12px;
+  }
+
+  .home_welcome_text {
+    font-size: 37px;
+  }
+
+  .home_head_para {
+    font-size: 20px;
+    padding: 10px 40px 0px 40px;
+  }
+  .home_about_button {
+    font-size: 23px;
+  }
+  .home_contact_button {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+  .home_heading {
+    font-size: 46px;
+    padding: 0px 4px 5px 4px;
+  }
+
+  .home_welcome_text {
+    font-size: 33px;
+  }
+
+  .home_head_para {
+    font-size: 20px;
+    padding: 10px 25px 0px 25px;
+  }
+  .home_about_button {
+    font-size: 22px;
+  }
+  .home_contact_button {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1099px) {
+  .home_heading {
+    font-size: 42px;
+    padding: 0px 5px 5px 5px;
+  }
+
+  .home_welcome_text {
+    font-size: 30px;
+  }
+
+  .home_head_para {
+    font-size: 18px;
+    padding: 10px 25px 0px 25px;
+  }
+  .home_about_button {
+    font-size: 22px;
+  }
+  .home_contact_button {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+  .home_heading {
+    font-size: 32px;
+    padding: 0px 0px 5px 0px;
+  }
+
+  .home_welcome_text {
+    font-size: 25px;
+  }
+
+  .home_head_para {
+    font-size: 18px;
+    padding: 10px 18px 0px 18px;
+  }
+  .home_about_button {
+    font-size: 22px;
+  }
+  .home_contact_button {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 799px) {
+  .home_heading {
+    font-size: 32px;
+    padding: 0px 0px 5px 0px;
+  }
+
+  .home_welcome_text {
+    font-size: 23px;
+  }
+
+  .home_head_para {
+    font-size: 17px;
+    padding: 10px 15px 0px 15px;
+  }
+  .home_about_button {
+    font-size: 20px;
+  }
+  .home_contact_button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .home_heading {
+    font-size: 42px;
+    padding: 0px 7px 5px 7px;
+  }
+
+  .home_welcome_text {
+    font-size: 30px;
+  }
+
+  .home_head_para {
+    font-size: 20px;
+    padding: 10px 24px 0px 24px;
+  }
+  .home_about_button {
+    font-size: 23px;
+  }
+  .home_contact_button {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 471px) and (max-width: 599px) {
+  .home_heading {
+    font-size: 34px;
+    padding: 0px 5px 5px 5px;
+  }
+
+  .home_welcome_text {
+    font-size: 25px;
+  }
+
+  .home_head_para {
+    font-size: 20px;
+    padding: 10px 24px 0px 24px;
+  }
+  .home_about_button {
+    font-size: 23px;
+  }
+  .home_contact_button {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 470px) {
+  .home_heading {
+    font-size: 28px;
+    padding: 0px 5px 5px 5px;
+  }
+
+  .home_welcome_text {
+    font-size: 20px;
+  }
+
+  .home_head_para {
+    font-size: 18px;
+    padding: 10px 20px 0px 20px;
+  }
+  .home_about_button {
+    font-size: 20px;
+  }
+  .home_contact_button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 399px) {
+  .home_heading {
+    font-size: 23px;
+    padding: 0px 3px 5px 3px;
+  }
+
+  .home_welcome_text {
+    font-size: 16px;
+  }
+
+  .home_head_para {
+    font-size: 14px;
+    padding: 10px 16px 0px 16px;
+  }
+  .home_about_button {
+    font-size: 17px;
+  }
+  .home_contact_button {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 299px) {
+  .home_heading {
+    font-size: 18px;
+    padding: 0px 3px 5px 3px;
+  }
+
+  .home_welcome_text {
+    font-size: 14px;
+  }
+
+  .home_head_para {
+    font-size: 14px;
+    padding: 10px 16px 0px 16px;
+  }
+  .home_about_button {
+    font-size: 16px;
+  }
+  .home_contact_button {
+    font-size: 16px;
+  }
+}

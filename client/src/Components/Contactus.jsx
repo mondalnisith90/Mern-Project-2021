@@ -195,10 +195,10 @@ const Contact = ({userLoginStatus}) => {
                      userLoginStatus ? null :
                      <>
                      {/* if user is not already loged in or signin then only show the bellow links */}
-                     <div className="col-md-4 col-sm-12 col-12 mt-4">
+                     <div className="col-lg-4 col-md-12 col-sm-12 col-12 mt-4">
                    <NavLink to="/login" className="nav_link">I already have an account</NavLink>
                    </div>
-                   <div className="col-md-4 col-sm-12 col-12 mt-4">
+                   <div className="col-lg-4 col-md-12 col-sm-12 col-12 mt-4">
                    <NavLink to="/signin" className="nav_link">New user? Create account</NavLink>
                    </div>
                     </> }

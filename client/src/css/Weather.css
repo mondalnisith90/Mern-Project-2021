@@ -113,3 +113,113 @@
   /* font-family: "Oswald", sans-serif; */
   font-weight: bold;
 }
+
+@media (min-width: 1050px) and (max-width: 1450px) {
+  .weather_header_design {
+    height: 130px;
+  }
+
+  .weather_temperature_text {
+    font-size: 50px;
+  }
+
+  .max_min_temp {
+    padding-right: 35px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1049px) {
+  .weather_header_design {
+    height: 120px;
+  }
+
+  .weather_temperature_text {
+    font-size: 45px;
+  }
+
+  .max_min_temp {
+    padding-right: 35px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .weather_header_design {
+    height: 120px;
+  }
+
+  .weather_temperature_text {
+    font-size: 45px;
+  }
+
+  .max_min_temp {
+    padding-right: 35px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 499px) {
+  .city_name_input {
+    font-size: 14px;
+  }
+
+  .city_btn {
+    font-size: 14px;
+  }
+
+  .weather_header_design {
+    height: 106px;
+  }
+
+  .weather_temperature_text {
+    font-size: 37px;
+  }
+
+  .max_min_temp {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 419px) {
+  .city_name_input {
+    font-size: 13px;
+    padding: 6px 15px 6px 6px;
+  }
+
+  .city_btn {
+    font-size: 13px !important;
+    padding: 3px !important;
+  }
+
+  .search_icons {
+    font-size: 15px !important;
+    padding: 0px;
+  }
+
+  .weather_header_design {
+    height: 95px;
+  }
+
+  .weather_temperature_text {
+    font-size: 24px;
+  }
+
+  .max_min_temp {
+    padding-right: 30px;
+    font-size: 13px;
+  }
+  .weather_image {
+    margin-left: 15px;
+  }
+
+  .body_city_name {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  .body_weather_status {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .body_text {
+    font-size: 14px !important;
+  }
+}

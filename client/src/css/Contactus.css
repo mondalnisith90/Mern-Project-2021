@@ -34,3 +34,12 @@
 .main_div {
   padding-bottom: 80px;
 }
+
+@media (max-width: 400px) {
+  .contact_heading {
+    font-size: 20px !important;
+  }
+}
+
+.media (min-width: 769px) and (max-width: 989px) {
+}

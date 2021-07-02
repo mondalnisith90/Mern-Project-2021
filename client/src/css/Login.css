@@ -56,3 +56,9 @@
   color: #ffffff;
   font-family: "Oswald", sans-serif;
 }
+
+@media (min-width: 990px) and (max-width: 1198px) {
+  .nav_link {
+    font-size: 14px !important;
+  }
+}

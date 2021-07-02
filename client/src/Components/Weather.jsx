@@ -98,7 +98,7 @@ const Weather = ({userLoginStatus}) => {
           <section className="weather_root_div">
           <div className="container weather_main_div">
           <div className=" row">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-12 d-block m-auto shadow form_city">
+          <div className="col-lg-7 col-md-12 col-sm-12 col-12 d-block m-auto shadow form_city">
           <form className="d-flex justify-content-center mt-3  w-100" onSubmit={cityFormSubmit} action="post">
             <input type="text" className="city_name_input" placeholder="City name like Delhi" value={cityName} name="cityName" onChange={onInputChange}  required />
             <button className="city_btn"><SearchIcon className="search_icons" type="submit" />Search</button>
@@ -107,7 +107,7 @@ const Weather = ({userLoginStatus}) => {
           </div>
 
           <div className=" row mb-5">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-12 d-block m-auto form_lat shadow">
+          <div className="col-lg-7 col-md-12 col-sm-12 col-12 d-block m-auto form_lat shadow">
           <form className="row g-3 pl-3 mb-3"  onSubmit={latitudeFormSubmit} action="post">
           <div className="col-md-4 ">
             <label htmlFor="inputEmail3" style={{fontWeight: "bold"}} className="form-label" >Latitude</label>
@@ -132,10 +132,10 @@ const Weather = ({userLoginStatus}) => {
           { weatherDataVisibility.visibility ?
 
           <div className="row mb-5">
-           <div className="col-lg-6 col-md-6 col-sm-12 col-12 d-block m-auto weather_data_main_div shadow">
+           <div className="col-lg-7 col-md-12 col-sm-12 col-12 d-block m-auto weather_data_main_div shadow">
              <div className="weather_header_design d-flex justify-content-around">
              <div>
-               <img src={weatherImage} alt=""  className="img-fluid"  />
+               <img src={weatherImage} alt=""  className="img-fluid weather_image"  />
              </div>
              <div>
                <h1 className="weather_temperature_text">{temperature}</h1>

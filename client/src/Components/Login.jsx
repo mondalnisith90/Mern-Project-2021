@@ -105,12 +105,12 @@ const Login = ({setUserLoginStatus}) => {
                                         </div>
                                     </div>
                                     <div className="row my-4">
-                                        <div className="col-md-6 col-sm-12 col-12">
+                                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <Button variant="contained" className="mt-3 login_btn" color="secondary"  startIcon={<ExitToAppIcon />}  type="submit">
                                              Login
                                            </Button>
                                         </div>
-                                        <div className="col-md-6 col-sm-12 col-12 mt-4">
+                                        <div className="col-lg-6 col-md-12 col-sm-12 col-12 mt-4">
                                             <NavLink to="/signin" className="nav_link">New user? Create account</NavLink>
                                         </div>
                                     </div>

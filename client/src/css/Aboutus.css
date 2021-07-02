@@ -83,3 +83,122 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+@media (min-width: 730px) and (max-width: 992px) {
+  .aboutus_heading {
+    font-size: 86px;
+    padding: 5px;
+  }
+
+  .aboutus_para {
+    font-size: 18px;
+    padding: 0px 0px 15px 0px;
+  }
+  .contact_us_icons_row_div {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .contactus_button {
+    font-size: 25px;
+  }
+
+  .signin_button {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 729px) {
+  .aboutus_heading {
+    font-size: 70px;
+    padding: 4px;
+  }
+
+  .aboutus_para {
+    font-size: 18px;
+    padding: 0px 5px 15px 5px;
+  }
+
+  .contact_us_icons_row_div {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .contactus_button {
+    font-size: 23px;
+  }
+
+  .signin_button {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+  .aboutus_heading {
+    font-size: 60px;
+    padding: 4px;
+  }
+
+  .aboutus_para {
+    font-size: 16px;
+    padding: 0px 8px 15px 8px;
+  }
+
+  .contact_us_icons_row_div {
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+  }
+  .contactus_button {
+    font-size: 22px;
+  }
+
+  .signin_button {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 290px) and (max-width: 399px) {
+  .aboutus_heading {
+    font-size: 50px;
+    padding: 4px;
+  }
+
+  .aboutus_para {
+    font-size: 15px;
+    padding: 0px 8px 15px 8px;
+  }
+
+  .contact_us_icons_row_div {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .contactus_button {
+    font-size: 20px;
+  }
+
+  .signin_button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 289px) {
+  .aboutus_heading {
+    font-size: 35px;
+    padding: 4px;
+  }
+
+  .aboutus_para {
+    font-size: 14px;
+    padding: 0px 3px 15px 3px;
+  }
+
+  .contact_us_icons_row_div {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .contactus_button {
+    font-size: 18px;
+  }
+
+  .signin_button {
+    font-size: 18px;
+  }
+}
